@@ -1,7 +1,7 @@
 const botao = document.getElementById("btn-play");
 const iReniciar = document.getElementById('botao-reniciar')
 const icone = botao.querySelector("i");
-const musica = new Audio("/frontend/media/vidssave.com Pra Não Dizer Que Não Falei das Flores 128KBPS.mp3");
+const musica = new Audio("frontend/media/vidssave.com Pra Não Dizer Que Não Falei das Flores 128KBPS.mp3");
 
 botao.addEventListener("click", () => {
   if (musica.paused) {
