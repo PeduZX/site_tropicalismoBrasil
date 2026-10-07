@@ -23,7 +23,7 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir -p dist/frontend
-          cp frontend/screens/index.html dist/index.html
+          cp index.html dist/index.html
           cp -R frontend/styles frontend/script frontend/media dist/frontend/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
