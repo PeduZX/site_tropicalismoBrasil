@@ -46,10 +46,22 @@
       <section class="clipe" aria-labelledby="t-clipe">
         <h2 id="h1-clipe-play">Aperte o play</h2>
         <div class="tv">
-          <video controls playsinline preload="metadata" poster="">
-            <source src="/frontend/media/clipe.mp4" type="video/mp4" />
-            Seu navegador não suporta vídeo.
-          </video>
+          <div style="position: relative; padding-bottom: 56.25%; height: 0">
+            <iframe
+              src="https://www.youtube.com/embed/FG23ijenZl4"
+              title="Clipe"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              frameborder="0"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
         </div>
         <small>Coloque aqui o clipe que você escolheu.</small>
       </section>
